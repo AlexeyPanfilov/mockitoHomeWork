@@ -22,7 +22,7 @@ public class GeoServiceImplTest {
     }
 
     @Test
-    @DisplayName("Тест локального IP")
+    @DisplayName("Тест Московскиго IP")
     void byIPMos () {
         ip = "172.0.32.11";
         Assertions.assertEquals("Moscow", geoService.byIp(ip).getCity());
@@ -32,7 +32,7 @@ public class GeoServiceImplTest {
     }
 
     @Test
-    @DisplayName("Тест локального IP")
+    @DisplayName("Тест IP NY")
     void byIPNY () {
         ip = "96.44.183.149";
         Assertions.assertEquals("New York", geoService.byIp(ip).getCity());
