@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import ru.netology.entity.Country;
 import ru.netology.geo.GeoServiceImpl;
 
+import java.util.List;
+
 public class GeoServiceImplTest {
 
     String ip;
